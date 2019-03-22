@@ -4,6 +4,9 @@ import org.thymeleaf.context.Context;
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
 import org.w3c.tidy.Tidy;
 import org.xhtmlrenderer.pdf.ITextRenderer;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 import java.io.*;
 import java.nio.file.FileSystems;
